@@ -1,0 +1,32 @@
+# for id
+
+// for all
+
+/ for direct child
+
+* select all
+
+//div[@id='nav-tools']//a[contains(@href, 'ct&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth')]"
+
+"//div[@class='a-row a-spacing-base']/input[@type='email']"
+
+"//div[@class='a-section']//h4"
+
+"//div[@id='legalTextRow']/a[contains(@href,'ie=UTF8&nodeId=508088')]"
+
+"//div[@class='help-content'] / h1"
+
+"//div[@class='a-section a-spacing-small a-spacing-top-small']//span[contains(@class, 'a-text-bold')]"
+
+"//div[@class='page-container'] //h1"
+
+"//label // h2''
+
+"//input[@id='hubHelpSearchInput']"
+
+"//div[@class='page-wrapper'] // h2"
+
+"//*[contains(text(), 'Lets go')]" or '//*(text()="Sup")'
+
+From Child to Parent:
+''//*[@id='site]/../..

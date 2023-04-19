@@ -1,0 +1,4 @@
+Need to install:
+selenium
+pytest
+webdriver-manager

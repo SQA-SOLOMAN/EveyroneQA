@@ -6,11 +6,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 import pytest
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 # driver.get('https://suninjuly.github.io/xpath_examples')
 
-# browser = Service('/Users/mikesoloman/PycharmProjects/EveyroneQA/chromedriver')
-# driver = webdriver.Chrome(service=browser)
+browser = Service('/Users/mikesoloman/PycharmProjects/EveyroneQA/chromedriver')
+driver = webdriver.Chrome(service=browser)
 
 
 driver.get("http://suninjuly.github.io/cats.html")
